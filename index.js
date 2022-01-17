@@ -114,7 +114,6 @@ function showAvailableRooms() {
             continue
         }
         let newRooms = roomsMeta.filter(room => room.number !== roomToBook)
-
         console.log(`Room ${room[0].number} has been Booked!`)
         room[0] = {
             ...room[0],
